@@ -564,6 +564,7 @@ export const routinAiPreset: BuiltinProviderPreset = {
     { id: 'MiniMax-M2.1', name: 'MiniMax M2.1', icon: 'minimax', enabled: true, contextLength: 196_608, maxOutputTokens: 16_384, supportsVision: false, supportsFunctionCall: true, inputPrice: 0.27, outputPrice: 0.95, cacheHitPrice: 0.03 },
     { id: 'MiniMax-M2.1-lightning', name: 'MiniMax M2.1 Lightning', icon: 'minimax', enabled: true, contextLength: 196_608, maxOutputTokens: 16_384, supportsVision: false, supportsFunctionCall: true, inputPrice: 0.14, outputPrice: 0.48 },
     { id: 'MiniMax-M2.5', name: 'MiniMax M2.5', icon: 'minimax', enabled: true, contextLength: 196_608, maxOutputTokens: 16_384, supportsVision: false, supportsFunctionCall: true, inputPrice: 0.3, outputPrice: 1.1, cacheHitPrice: 0.03 },
+    { id: 'MiniMax-M2.5-highspeed', name: 'MiniMax M2.5 Highspeed', icon: 'minimax', enabled: true, contextLength: 204_800, supportsFunctionCall: true },
     // ── DeepSeek ──
     { id: 'deepseek-v3.2', name: 'DeepSeek V3.2', icon: 'deepseek', enabled: true, contextLength: 163_840, maxOutputTokens: 8_192, supportsVision: false, supportsFunctionCall: true, inputPrice: 0.26, outputPrice: 0.38, cacheCreationPrice: 0.26, cacheHitPrice: 0.026, supportsThinking: true, thinkingConfig: { bodyParams: { enable_thinking: true } } },
     // ── Moonshot / Kimi ──
